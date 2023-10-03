@@ -71,30 +71,18 @@ class ContractEmployee(Employee):
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = SalaryEmployee('Billie', 4000)
-billie.get_pay()
-str(billie)
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
 charlie = ContractEmployee('Charlie', 25, 100)
-charlie.get_pay()
-str(charlie)
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = SalaryEmployee('Renee', 3000, 0, 200, 4)
-renee.get_pay()
-str(renee)
 
 # Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.
 jan = ContractEmployee('Jan', 25, 150, 0, 220, 3)
-jan.get_pay()
-str(jan)
 
 # Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500.  Their total pay is 3500.
 robbie = SalaryEmployee('Robbie', 2000, 1500)
-robbie.get_pay()
-str(robbie)
 
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.
 ariel = ContractEmployee('Ariel', 30, 120, 600)
-ariel.get_pay()
-str(ariel)
